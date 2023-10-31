@@ -1,0 +1,98 @@
+body {
+	background-color:hotpink;
+	color: mediumseagreen;
+    font-family: 'Lora', serif;
+    font-size: 18px
+}
+
+h1 {
+	color: #371B58;
+	font-family: Times;
+	font-weight: 900;
+	letter-spacing: 10px;
+	font-size: 50px;
+}
+
+h2,h3 {
+	color: #551A8B
+}
+
+a {
+	color:#7858A6 ;
+	 font-weight:500;
+	  font-family: 'Poppins', sans-serif;
+	  text-decoration: none;
+}
+a:hover {
+	color: rgb(230,10,70);
+}
+
+.container {
+	width: 900px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+
+}
+
+@media (max-width: 500px) {
+	body{
+		background-color: purple;}
+
+	.container {
+		width: 500px;
+	}
+	#btn-white {
+		font-size: 15px;
+	}
+
+}
+.card-pink {
+    background:pink;
+    padding:60px;
+    box-shadow: 10px 5px 35px rgba(225,250,240,0.7);
+    margin:50px;
+    border-radius:15px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 10%
+}
+
+
+#btn-white {
+	background-color: #7858A6;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 15px;
+}
+
+#btn-white:hover {
+	background-color:rgb(230,10,70);
+	color: white;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+font-size: 50px;
+color:;
+}
+
+#intro p {
+	margin-bottom: 40px;
+}
+
